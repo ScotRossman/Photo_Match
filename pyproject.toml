@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "photo-match"
+version = "0.1.0"
+description = "Find exact duplicate photos in a folder."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+photomatch = "photomatch.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
