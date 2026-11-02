@@ -4,6 +4,9 @@ Photo Match is a small, local command-line tool for finding exact duplicate
 photos. The first version identifies byte-for-byte copies using SHA-256; it
 does not modify or delete any files.
 
+For an explanation of how the application works, see the
+[Photo Match application guide](EDUCATION.md).
+
 ## Requirements
 
 - Python 3.10 or newer
